@@ -30,13 +30,17 @@ SELECT CURRENT_TIMESTAMP;
 /*
   Get Year, Month, Day, Hour, Minute, Second
 */
-dayname(date) - Returns the name of the weekday for date.
-dayofmonth(date) - Returns the day of the month for date (1-31).
-dayofweek(date) - Returns the weekday index for date (1 = Sunday, 2 = Monday, ..., 7 = Saturday).
-dayofyear(date) - Returns the day of the year for date (1-366).
-month(date) - Returns the month for date (1-12).
-year(date) - Returns the year for date.
-hour(time) - Returns the hour for time (0-23).
-minute(time) - Returns the minute for time (0-59).
-second(time) - Returns the second for time (0-59).
-datediff(date1, date2) - Returns the number of days between date1 and date2.
+DAYNAME(date) - Returns the name of the weekday for date.
+DAYOFMONTH(date) - Returns the day of the month for date (1-31).
+DAYOFWEEK(date) - Returns the weekday index for date (1 = Sunday, 2 = Monday, ..., 7 = Saturday).
+YEAR(date) - Returns the day of the year for date (1-366).
+MONTH(date) - Returns the month for date (1-12).
+YEAR(date) - Returns the year for date.
+HOUR(time) - Returns the hour for time (0-23).
+MINUTE(time) - Returns the minute for time (0-59).
+SECOND(time) - Returns the second for time (0-59).
+DATEDIFF(date1, date2) - Returns the number of days between date1 and date2.
+DATE_ADD(Date, INTERVAL EXPRERSSION TIMEUNIT)
+DATE_SUB(Date, INTERVAL EXPRERSSION TIMEUNIT)
+LAST_DAY(Date)
+
